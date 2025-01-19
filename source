@@ -12353,11 +12353,12 @@ addcmd("hug", {"kiss"}, function(args, speaker)
 	local Anim = Instance.new("Animation")
 	Anim.AnimationId = "rbxassetid://283545583"
 	local tilt = pchar:FindFirstChildOfClass('Humanoid'):LoadAnimation(Anim)
-	tilt:Play()
-
+	
 	local Anim = Instance.new("Animation")
 	Anim.AnimationId = "rbxassetid://225975820"
 	local out = pchar:FindFirstChildOfClass('Humanoid'):LoadAnimation(Anim)
+	
+	tilt:Play()
 	out:Play()
 
     for _, v in pairs(players) do
