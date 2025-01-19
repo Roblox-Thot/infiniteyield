@@ -12345,7 +12345,7 @@ addcmd("scare", {"spook"}, function(args, speaker)
     end
 end)
 
-addcmd("hug", {}, function(args, speaker)
+addcmd("hug", {"kiss"}, function(args, speaker)
 	local pchar=speaker.Character
     local players = getPlayer(args[1], speaker)
     local oldpos = nil
