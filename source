@@ -12345,7 +12345,7 @@ addcmd("scare", {"spook"}, function(args, speaker)
     end
 end)
 
-addcmd("hug", {"spook"}, function(args, speaker)
+addcmd("hug", {}, function(args, speaker)
 	local pchar=speaker.Character
     local players = getPlayer(args[1], speaker)
     local oldpos = nil
@@ -12369,7 +12369,7 @@ addcmd("hug", {"spook"}, function(args, speaker)
             oldpos = root.CFrame
             root.CFrame = targetRoot.CFrame + targetRoot.CFrame.lookVector * 2
             root.CFrame = CFrame.new(root.Position, targetRoot.Position)
-            task.wait(0.5)
+            task.wait(1)
             root.CFrame = oldpos
         end
     end
