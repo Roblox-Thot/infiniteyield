@@ -1,5 +1,5 @@
 lines = ''
-with open('source.txt', 'r') as file:
+with open('source', 'r') as file:
     lines = file.readlines()
 
 replacements = {
