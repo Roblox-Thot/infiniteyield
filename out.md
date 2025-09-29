@@ -1,3 +1,5 @@
+# Commands
+
 ## discord / support / help
 Invite to the Infinite Yield support server.
 
