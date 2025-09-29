@@ -11,7 +11,7 @@ replacements = {
     '\t': ''
 }
 
-out = open("out.md", 'w')
+out = open("commands.md", 'w')
 out.write('# Commands\n\n')
 for i in range(len(lines)):
     if 'CMDs[#CMDs + 1] = {NAME = ' in lines[i]:
@@ -22,4 +22,5 @@ for i in range(len(lines)):
         if (name or desc) == "": continue
         print(f'Command Name: {name}, Description: {desc}')
         out.write(f'## {name}\n{desc}\n\n')
+
 out.close()
