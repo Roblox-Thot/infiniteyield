@@ -5,6 +5,7 @@ on:
     paths:
       - '**.lua'
       - '**.yml'
+      - '**.py'
   workflow_dispatch:
 
 jobs:
@@ -29,7 +30,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git pull origin master
         git add 'out.md'
-        git commit -F out.md
+        git commit -M 'Commands update'
         git push origin master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -12,6 +12,7 @@ replacements = {
 }
 
 out = open("out.md", 'w')
+out.write('# Commands\n\n')
 for i in range(len(lines)):
     if 'CMDs[#CMDs + 1] = {NAME = ' in lines[i]:
         testline = lines[i]
