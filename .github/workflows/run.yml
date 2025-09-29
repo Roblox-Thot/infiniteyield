@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '**.lua'
+      - '**.yml'
   workflow_dispatch:
 
 jobs:
