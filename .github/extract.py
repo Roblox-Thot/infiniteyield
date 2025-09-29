@@ -23,4 +23,3 @@ for i in range(len(lines)):
         out.write(f'## {name}\n{desc}\n\n')
 
 out.close()
-
