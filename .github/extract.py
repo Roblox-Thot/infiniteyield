@@ -1,4 +1,4 @@
-with open('source.txt', 'r') as file: lines = file.readlines()
+with open('source', 'r') as file: lines = file.readlines()
 
 replacements = {
     "CMDs[#CMDs + 1] = {NAME = '": '',
@@ -23,3 +23,4 @@ for i in range(len(lines)):
         out.write(f'## {name}\n{desc}\n\n')
 
 out.close()
+
