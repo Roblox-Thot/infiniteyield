@@ -1,4 +1,4 @@
-name: Grab game list
+name: Grab command list
 
 on:
   push:
@@ -35,3 +35,4 @@ jobs:
       env:
 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
