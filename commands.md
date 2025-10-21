@@ -361,6 +361,12 @@ Enables bubble chat for your client
 ## unbubblechat / nobubblechat
 Disables the bubblechat command
 
+## chatwindow
+Enables the chat window for your client
+
+## unchatwindow / nochatwindow
+Disables the chat window for your client
+
 ## esp
 View all players and their status
 
@@ -1212,4 +1218,16 @@ Unsuspends you from text chat
 
 ## unsuspendvc
 Unsuspends you from voice chat
+
+## muteallvcs
+Mutes voice chat for all players
+
+## unmuteallvcs
+Unmutes voice chat for all players
+
+## mutevc [player]
+Mutes the voice chat of a player
+
+## unmutevc [player]
+Unmutes the voice chat of a player
 
