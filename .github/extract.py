@@ -33,4 +33,4 @@ for i in range(len(lines)):
         commands[name] = desc
 
 out.close()
-with open('commands.json', 'w') as f: json.dump(commands, f)
+with open('commands.json', 'w') as f: json.dump(commands, f, indent=4)
