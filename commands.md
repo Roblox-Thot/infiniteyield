@@ -1,1235 +1,1237 @@
-# Commands
+## Infinite Yield v6.3.4
 
-## discord / support / help
+## Commands
+
+### discord / support / help
 Invite to the Infinite Yield support server.
 
-## guiscale [number]
+### guiscale [number]
 Changes the size of the gui. [number] accepts both decimals and whole numbers. Min is 0.4 and Max is 2
 
-## console
+### console
 Loads Roblox console
 
-## oldconsole
+### oldconsole
 Loads old Roblox console
 
-## explorer / dex
+### explorer / dex
 Opens DEX by Moon
 
-## olddex / odex
+### olddex / odex
 Opens Old DEX by Moon
 
-## remotespy / rspy
+### remotespy / rspy
 Opens Simple Spy V3
 
-## audiologger / alogger
+### audiologger / alogger
 Opens Edges audio logger
 
-## serverinfo / info
+### serverinfo / info
 Gives you info about the server
 
-## jobid
+### jobid
 Copies the games JobId to your clipboard
 
-## notifyjobid
+### notifyjobid
 Notifies you the games JobId
 
-## rejoin / rj
+### rejoin / rj
 Makes you rejoin the game
 
-## autorejoin / autorj
+### autorejoin / autorj
 Automatically rejoins the server if you get kicked/disconnected
 
-## serverhop / shop
+### serverhop / shop
 Teleports you to a different server
 
-## gameteleport / gametp [place ID]
+### gameteleport / gametp [place ID]
 Joins a game by ID
 
-## antiidle / antiafk
+### antiidle / antiafk
 Prevents the game from kicking you for being idle/afk
 
-## datalimit [num]
+### datalimit [num]
 Set outgoing KBPS limit
 
-## replicationlag / backtrack [num]
+### replicationlag / backtrack [num]
 Set IncomingReplicationLag
 
-## creatorid / creator
+### creatorid / creator
 Notifies you the creators ID
 
-## copycreatorid / copycreator
+### copycreatorid / copycreator
 Copies the creators ID to your clipboard
 
-## setcreatorid / setcreator
+### setcreatorid / setcreator
 Sets your userid to the creators ID
 
-## noprompts
+### noprompts
 Prevents the game from showing you purchase/premium prompts
 
-## showprompts
+### showprompts
 Allows the game to show purchase/premium prompts again
 
-## enable [inventory/playerlist/chat/reset/emotes/all]
+### enable [inventory/playerlist/chat/reset/emotes/all]
 Toggles visibility of coregui items
 
-## disable [inventory/playerlist/chat/reset/emotes/all]
+### disable [inventory/playerlist/chat/reset/emotes/all]
 Toggles visibility of coregui items
 
-## showguis
+### showguis
 Shows any invisible GUIs
 
-## unshowguis
+### unshowguis
 Undoes showguis
 
-## hideguis
+### hideguis
 Hides any GUIs in PlayerGui
 
-## unhideguis
+### unhideguis
 Undoes hideguis
 
-## guidelete
+### guidelete
 Enables backspace to delete GUI
 
-## unguidelete / noguidelete
+### unguidelete / noguidelete
 Disables guidelete
 
-## hideiy
+### hideiy
 Hides the main IY GUI
 
-## showiy / unhideiy
+### showiy / unhideiy
 Shows IY again
 
-## keepiy
+### keepiy
 Auto execute IY when you teleport through servers
 
-## unkeepiy
+### unkeepiy
 Disable keepiy
 
-## togglekeepiy
+### togglekeepiy
 Toggles keepiy
 
-## savegame / saveplace
+### savegame / saveplace
 Uses saveinstance to save the game
 
-## clearerror
+### clearerror
 Clears the annoying box and blur when a game kicks you
 
-## clientantikick / antikick (CLIENT)
+### clientantikick / antikick (CLIENT)
 Prevents localscripts from kicking you
 
-## clientantiteleport / antiteleport (CLIENT)
+### clientantiteleport / antiteleport (CLIENT)
 Prevents localscripts from teleporting you
 
-## allowrejoin / allowrj [true/false] (CLIENT)
+### allowrejoin / allowrj [true/false] (CLIENT)
 Changes if antiteleport allows you to rejoin or not
 
-## cancelteleport / canceltp
+### cancelteleport / canceltp
 Cancels teleports in progress
 
-## volume / vol [0-10]
+### volume / vol [0-10]
 Adjusts your game volume on a scale of 0 to 10
 
-## antilag / boostfps / lowgraphics
+### antilag / boostfps / lowgraphics
 Lowers game quality to boost FPS
 
-## record / rec
+### record / rec
 Starts Roblox recorder
 
-## screenshot / scrnshot
+### screenshot / scrnshot
 Takes a screenshot
 
-## togglefullscreen / togglefs
+### togglefullscreen / togglefs
 Toggles fullscreen
 
-## notify [text]
+### notify [text]
 Sends you a notification with the provided text
 
-## lastcommand / lastcmd
+### lastcommand / lastcmd
 Executes the previous command used
 
-## exit
+### exit
 Kills roblox process
 
-## noclip
+### noclip
 Go through objects
 
-## unnoclip / clip
+### unnoclip / clip
 Disables noclip
 
-## fly [speed]
+### fly [speed]
 Makes you fly
 
-## unfly
+### unfly
 Disables fly
 
-## flyspeed [num]
+### flyspeed [num]
 Set fly speed (default is 20)
 
-## vehiclefly / vfly [speed]
+### vehiclefly / vfly [speed]
 Makes you fly in a vehicle
 
-## unvehiclefly / unvfly
+### unvehiclefly / unvfly
 Disables vehicle fly
 
-## vehicleflyspeed  / vflyspeed [num]
+### vehicleflyspeed  / vflyspeed [num]
 Set vehicle fly speed
 
-## cframefly / cfly [speed]
+### cframefly / cfly [speed]
 Makes you fly, bypassing some anti cheats (works on mobile)
 
-## uncframefly / uncfly
+### uncframefly / uncfly
 Disables cfly
 
-## cframeflyspeed  / cflyspeed [num]
+### cframeflyspeed  / cflyspeed [num]
 Sets cfly speed
 
-## qefly [true / false]
+### qefly [true / false]
 Enables or disables the Q and E hotkeys for fly
 
-## vehiclenoclip / vnoclip
+### vehiclenoclip / vnoclip
 Turns off vehicle collision
 
-## vehicleclip / vclip / unvnoclip
+### vehicleclip / vclip / unvnoclip
 Enables vehicle collision
 
-## float /  platform
+### float /  platform
 Spawns a platform beneath you causing you to float
 
-## unfloat / noplatform
+### unfloat / noplatform
 Removes the platform
 
-## swim
+### swim
 Allows you to swim in the air
 
-## unswim / noswim
+### unswim / noswim
 Stops you from swimming everywhere
 
-## toggleswim
+### toggleswim
 Toggles swimming
 
-## setwaypoint / swp [name]
+### setwaypoint / swp [name]
 Sets a waypoint at your position
 
-## waypointpos / wpp [name] [X Y Z]
+### waypointpos / wpp [name] [X Y Z]
 Sets a waypoint with specified coordinates
 
-## waypoints
+### waypoints
 Shows a list of currently active waypoints
 
-## showwaypoints / showwp
+### showwaypoints / showwp
 Shows all currently set waypoints
 
-## hidewaypoints / hidewp
+### hidewaypoints / hidewp
 Hides shown waypoints
 
-## waypoint / wp [name]
+### waypoint / wp [name]
 Teleports player to a waypoint
 
-## tweenwaypoint / twp [name]
+### tweenwaypoint / twp [name]
 Tweens player to a waypoint
 
-## walktowaypoint / wtwp [name]
+### walktowaypoint / wtwp [name]
 Walks player to a waypoint
 
-## deletewaypoint / dwp [name]
+### deletewaypoint / dwp [name]
 Deletes a waypoint
 
-## clearwaypoints / cwp
+### clearwaypoints / cwp
 Clears all waypoints
 
-## cleargamewaypoints / cgamewp
+### cleargamewaypoints / cgamewp
 Clears all waypoints for the game you are in
 
-## goto [player]
+### goto [player]
 Go to a player
 
-## tweengoto / tgoto [player]
+### tweengoto / tgoto [player]
 Tween to a player (bypasses some anti cheats)
 
-## tweenspeed / tspeed [num]
+### tweenspeed / tspeed [num]
 Sets how fast all tween commands go (default is 1)
 
-## vehiclegoto / vgoto [player]
+### vehiclegoto / vgoto [player]
 Go to a player while in a vehicle
 
-## loopgoto [player] [distance] [delay]
+### loopgoto [player] [distance] [delay]
 Loop teleport to a player
 
-## unloopgoto
+### unloopgoto
 Stops teleporting you to a player
 
-## pulsetp / ptp [player] [seconds]
+### pulsetp / ptp [player] [seconds]
 Teleports you to a player for a specified amount of time
 
-## clientbring / cbring [player] (CLIENT)
+### clientbring / cbring [player] (CLIENT)
 Bring a player
 
-## loopbring [player] [distance] [delay] (CLIENT)
+### loopbring [player] [distance] [delay] (CLIENT)
 Loop brings a player to you (useful for killing)
 
-## unloopbring [player]
+### unloopbring [player]
 Undoes loopbring
 
-## freeze / fr [player] (CLIENT)
+### freeze / fr [player] (CLIENT)
 Freezes a player
 
-## freezeanims
+### freezeanims
 Freezes your animations / pauses your animations - Does not work on default animations
 
-## unfreezeanims
+### unfreezeanims
 Unfreezes your animations / plays your animations
 
-## thaw / unfr [player] (CLIENT)
+### thaw / unfr [player] (CLIENT)
 Unfreezes a player
 
-## tpposition / tppos [X Y Z]
+### tpposition / tppos [X Y Z]
 Teleports you to certain coordinates
 
-## tweentpposition / ttppos [X Y Z]
+### tweentpposition / ttppos [X Y Z]
 Tween to coordinates (bypasses some anti cheats)
 
-## offset [X Y Z]
+### offset [X Y Z]
 Offsets you by certain coordinates
 
-## tweenoffset / toffset [X Y Z]
+### tweenoffset / toffset [X Y Z]
 Tween offset (bypasses some anti cheats)
 
-## notifyposition / notifypos [player]
+### notifyposition / notifypos [player]
 Notifies you the coordinates of a character
 
-## copyposition / copypos [player]
+### copyposition / copypos [player]
 Copies the coordinates of a character to your clipboard
 
-## walktoposition / walktopos [X Y Z]
+### walktoposition / walktopos [X Y Z]
 Makes you walk to a coordinate
 
-## spawnpoint / spawn [delay]
+### spawnpoint / spawn [delay]
 Sets a position where you will spawn
 
-## nospawnpoint / nospawn
+### nospawnpoint / nospawn
 Removes your custom spawn point
 
-## flashback / diedtp
+### flashback / diedtp
 Teleports you to where you last died
 
-## walltp
+### walltp
 Teleports you above/over any wall you run into
 
-## nowalltp / unwalltp
+### nowalltp / unwalltp
 Disables walltp
 
-## teleporttool / tptool
+### teleporttool / tptool
 Gives you a teleport tool
 
-## logs
+### logs
 Opens the logs GUI
 
-## chatlogs / clogs
+### chatlogs / clogs
 Log what people say or whisper
 
-## joinlogs / jlogs
+### joinlogs / jlogs
 Log when people join
 
-## chatlogswebhook / logswebhook [url]
+### chatlogswebhook / logswebhook [url]
 Set a discord webhook for chatlogs to go to (provide no url to disable this)
 
-## antichatlogs / antichatlogger
+### antichatlogs / antichatlogger
 Prevents Roblox from banning you for your silly chat messages (game needs the legacy chat)
 
-## chat / say [text]
+### chat / say [text]
 Makes you chat a string (possible mute bypass)
 
-## spam [text]
+### spam [text]
 Makes you spam the chat
 
-## unspam
+### unspam
 Turns off spam
 
-## whisper / pm [player] [text]
+### whisper / pm [player] [text]
 Makes you whisper a string to someone (possible mute bypass)
 
-## pmspam [player] [text]
+### pmspam [player] [text]
 Makes you spam a players whispers
 
-## unpmspam [player]
+### unpmspam [player]
 Turns off pm spam
 
-## spamspeed [num]
+### spamspeed [num]
 How quickly you spam (default is 1)
 
-## bubblechat (CLIENT)
+### bubblechat (CLIENT)
 Enables bubble chat for your client
 
-## unbubblechat / nobubblechat
+### unbubblechat / nobubblechat
 Disables the bubblechat command
 
-## chatwindow
+### chatwindow
 Enables the chat window for your client
 
-## unchatwindow / nochatwindow
+### unchatwindow / nochatwindow
 Disables the chat window for your client
 
-## esp
+### esp
 View all players and their status
 
-## espteam
+### espteam
 ESP but teammates are green and bad guys are red
 
-## noesp / unesp / unespteam
+### noesp / unesp / unespteam
 Removes ESP
 
-## esptransparency [number]
+### esptransparency [number]
 Changes the transparency of ESP related commands
 
-## partesp [part name]
+### partesp [part name]
 Highlights a part
 
-## unpartesp / nopartesp [part name]
+### unpartesp / nopartesp [part name]
 removes partesp
 
-## chams
+### chams
 ESP but without text in the way
 
-## nochams / unchams
+### nochams / unchams
 Removes chams
 
-## locate [player]
+### locate [player]
 View a single player and their status
 
-## unlocate / nolocate [player]
+### unlocate / nolocate [player]
 Removes locate
 
-## xray
+### xray
 Makes all parts in workspace transparent
 
-## unxray / noxray
+### unxray / noxray
 Restores transparency to all parts in workspace
 
-## loopxray
+### loopxray
 Makes all parts in workspace transparent but looped
 
-## unloopxray
+### unloopxray
 Unloops xray
 
-## togglexray
+### togglexray
 Toggles xray
 
-## spectate / view [player]
+### spectate / view [player]
 View a player
 
-## viewpart / viewp [part name]
+### viewpart / viewp [part name]
 View a part
 
-## unspectate / unview
+### unspectate / unview
 Stops viewing player
 
-## freecam / fc
+### freecam / fc
 Allows you to freely move camera around the game
 
-## freecampos / fcpos [X Y Z]
+### freecampos / fcpos [X Y Z]
 Moves / opens freecam in a certain position
 
-## freecamwaypoint / fcwp [name]
+### freecamwaypoint / fcwp [name]
 Moves / opens freecam to a waypoint
 
-## freecamgoto / fcgoto / fctp [player]
+### freecamgoto / fcgoto / fctp [player]
 Moves / opens freecam to a player
 
-## unfreecam / unfc
+### unfreecam / unfc
 Disables freecam
 
-## freecamspeed / fcspeed [num]
+### freecamspeed / fcspeed [num]
 Adjusts freecam speed (default is 1)
 
-## notifyfreecamposition / notifyfcpos
+### notifyfreecamposition / notifyfcpos
 Noitifies you your freecam coordinates
 
-## copyfreecamposition / copyfcpos
+### copyfreecamposition / copyfcpos
 Copies your freecam coordinates to your clipboard
 
-## gotocamera / gotocam
+### gotocamera / gotocam
 Teleports you to the location of your camera
 
-## tweengotocam / tgotocam
+### tweengotocam / tgotocam
 Tweens you to the location of your camera
 
-## firstp
+### firstp
 Forces camera to go into first person
 
-## thirdp
+### thirdp
 Allows camera to go into third person
 
-## noclipcam / nccam
+### noclipcam / nccam
 Allows camera to go through objects like walls
 
-## maxzoom [num]
+### maxzoom [num]
 Maximum camera zoom
 
-## minzoom [num]
+### minzoom [num]
 Minimum camera zoom
 
-## camdistance [num]
+### camdistance [num]
 Changes camera distance from your player
 
-## fov [num]
+### fov [num]
 Adjusts field of view (default is 70)
 
-## fixcam / restorecam
+### fixcam / restorecam
 Fixes camera
 
-## enableshiftlock / enablesl
+### enableshiftlock / enablesl
 Enables the shift lock option
 
-## lookat [player]
+### lookat [player]
 Moves your camera view to a player
 
-## btools (CLIENT)
+### btools (CLIENT)
 Gives you building tools (DOES NOT REPLICATE)
 
-## f3x (CLIENT)
+### f3x (CLIENT)
 Gives you F3X building tools (DOES NOT REPLICATE)
 
-## partname / partpath
+### partname / partpath
 Allows you to click a part to see its path & name
 
-## delete [instance name] (CLIENT)
+### delete [instance name] (CLIENT)
 Removes any part with a certain name from the workspace (DOES NOT REPLICATE)
 
-## deleteclass / dc [class name] (CLIENT)
+### deleteclass / dc [class name] (CLIENT)
 Removes any part with a certain classname from the workspace (DOES NOT REPLICATE)
 
-## lockworkspace / lockws
+### lockworkspace / lockws
 Locks the whole workspace
 
-## unlockworkspace / unlockws
+### unlockworkspace / unlockws
 Unlocks the whole workspace
 
-## invisibleparts / invisparts (CLIENT)
+### invisibleparts / invisparts (CLIENT)
 Shows invisible parts
 
-## uninvisibleparts / uninvisparts (CLIENT)
+### uninvisibleparts / uninvisparts (CLIENT)
 Makes parts affected by invisparts return to normal
 
-## deleteinvisparts / dip (CLIENT)
+### deleteinvisparts / dip (CLIENT)
 Deletes invisible parts
 
-## gotopart [part name]
+### gotopart [part name]
 Moves your character to a part or multiple parts
 
-## tweengotopart / tgotopart [part name]
+### tweengotopart / tgotopart [part name]
 Tweens your character to a part or multiple parts
 
-## gotopartclass / gpc [class name]
+### gotopartclass / gpc [class name]
 Moves your character to a part or multiple parts based on classname
 
-## tweengotopartclass / tgpc [class name]
+### tweengotopartclass / tgpc [class name]
 Tweens your character to a part or multiple parts based on classname
 
-## gotomodel [part name]
+### gotomodel [part name]
 Moves your character to a model or multiple models
 
-## tweengotomodel / tgotomodel [part name]
+### tweengotomodel / tgotomodel [part name]
 Tweens your character to a model or multiple models
 
-## gotopartdelay / gotomodeldelay [num]
+### gotopartdelay / gotomodeldelay [num]
 Adjusts how quickly you teleport to each part (default is 0.1)
 
-## bringpart [part name] (CLIENT)
+### bringpart [part name] (CLIENT)
 Moves a part or multiple parts to your character
 
-## bringpartclass / bpc [class name] (CLIENT)
+### bringpartclass / bpc [class name] (CLIENT)
 Moves a part or multiple parts to your character based on classname
 
-## noclickdetectorlimits / nocdlimits
+### noclickdetectorlimits / nocdlimits
 Sets all click detectors MaxActivationDistance to math.huge
 
-## fireclickdetectors / firecd [name]
+### fireclickdetectors / firecd [name]
 Uses all click detectors in a game or uses the optional name
 
-## firetouchinterests / touchinterests [name]
+### firetouchinterests / touchinterests [name]
 Uses all touchinterests in a game or uses the optional name
 
-## noproximitypromptlimits / nopplimits
+### noproximitypromptlimits / nopplimits
 Sets all proximity prompts MaxActivationDistance to math.huge
 
-## fireproximityprompts / firepp [name]
+### fireproximityprompts / firepp [name]
 Uses all proximity prompts in a game or uses the optional name
 
-## instantproximityprompts / instantpp
+### instantproximityprompts / instantpp
 Disable the cooldown for proximity prompts
 
-## uninstantproximityprompts / uninstantpp
+### uninstantproximityprompts / uninstantpp
 Undo the cooldown removal
 
-## tpunanchored / tpua [player]
+### tpunanchored / tpua [player]
 Teleports unanchored parts to a player
 
-## animsunanchored / freezeua
+### animsunanchored / freezeua
 Freezes unanchored parts
 
-## thawunanchored / thawua / unfreezeua
+### thawunanchored / thawua / unfreezeua
 Thaws unanchored parts
 
-## removeterrain / rterrain / noterrain
+### removeterrain / rterrain / noterrain
 Removes all terrain
 
-## clearnilinstances / nonilinstances / cni
+### clearnilinstances / nonilinstances / cni
 Removes nil instances
 
-## destroyheight / dh [num]
+### destroyheight / dh [num]
 Sets FallenPartsDestroyHeight
 
-## fakeout
+### fakeout
 Tp to the void and then back (useful to kill people attached to you)
 
-## antivoid
+### antivoid
 Prevents you from falling into the void by launching you upwards
 
-## unantivoid / noantivoid
+### unantivoid / noantivoid
 Disables antivoid
 
-## fullbright / fb (CLIENT)
+### fullbright / fb (CLIENT)
 Makes the map brighter / more visible
 
-## loopfullbright / loopfb (CLIENT)
+### loopfullbright / loopfb (CLIENT)
 Makes the map brighter / more visible but looped
 
-## unloopfullbright / unloopfb
+### unloopfullbright / unloopfb
 Unloops fullbright
 
-## ambient [num] [num] [num] (CLIENT)
+### ambient [num] [num] [num] (CLIENT)
 Changes ambient
 
-## day (CLIENT)
+### day (CLIENT)
 Changes the time to day for the client
 
-## night (CLIENT)
+### night (CLIENT)
 Changes the time to night for the client
 
-## nofog (CLIENT)
+### nofog (CLIENT)
 Removes fog
 
-## brightness [num] (CLIENT)
+### brightness [num] (CLIENT)
 Changes the brightness lighting property
 
-## globalshadows / gshadows (CLIENT)
+### globalshadows / gshadows (CLIENT)
 Enables global shadows
 
-## noglobalshadows / nogshadows (CLIENT)
+### noglobalshadows / nogshadows (CLIENT)
 Disables global shadows
 
-## restorelighting / rlighting
+### restorelighting / rlighting
 Restores Lighting properties
 
-## light [radius] [brightness] (CLIENT)
+### light [radius] [brightness] (CLIENT)
 Gives your player dynamic light
 
-## nolight / unlight
+### nolight / unlight
 Removes dynamic light from your player
 
-## inspect / examine [player]
+### inspect / examine [player]
 Opens InspectMenu for a certain player
 
-## age [player]
+### age [player]
 Tells you the age of a player
 
-## chatage [player]
+### chatage [player]
 Chats the age of a player
 
-## joindate / jd [player]
+### joindate / jd [player]
 Tells you the date the player joined Roblox
 
-## chatjoindate / cjd [player]
+### chatjoindate / cjd [player]
 Chats the date the player joined Roblox
 
-## copyname / copyuser [player]
+### copyname / copyuser [player]
 Copies a players full username to your clipboard
 
-## userid / id [player]
+### userid / id [player]
 Notifies a players user ID
 
-## copyplaceid / placeid
+### copyplaceid / placeid
 Copies the current place id to your clipboard
 
-## copygameid / gameid
+### copygameid / gameid
 Copies the current game id to your clipboard
 
-## copyuserid / copyid [player]
+### copyuserid / copyid [player]
 Copies a players user ID to your clipboard
 
-## appearanceid / aid [player]
+### appearanceid / aid [player]
 Notifies a players appearance ID
 
-## copyappearanceid / caid [player]
+### copyappearanceid / caid [player]
 Copies a players appearance ID to your clipboard
 
-## bang [player] [speed]
+### bang [player] [speed]
 owo
 
-## unbang
+### unbang
 uwu
 
-## carpet [player]
+### carpet [player]
 Be someones carpet
 
-## uncarpet
+### uncarpet
 Undoes carpet
 
-## friend [player]
+### friend [player]
 Sends a friend request to certain players
 
-## unfriend [player]
+### unfriend [player]
 Unfriends certain players
 
-## headsit [player]
+### headsit [player]
 Sit on a players head
 
-## walkto / follow [player]
+### walkto / follow [player]
 Follow a player
 
-## pathfindwalkto / pathfindfollow [player]
+### pathfindwalkto / pathfindfollow [player]
 Follow a player using pathfinding
 
-## pathfindwalktowaypoint / pathfindwalktowp [waypoint]
+### pathfindwalktowaypoint / pathfindwalktowp [waypoint]
 Walk to a waypoint using pathfinding
 
-## unwalkto / unfollow
+### unwalkto / unfollow
 Stops following a player
 
-## orbit [player] [speed] [distance]
+### orbit [player] [speed] [distance]
 Makes your character orbit around a player with an optional speed and an optional distance
 
-## unorbit
+### unorbit
 Disables orbit
 
-## stareat / stare [player]
+### stareat / stare [player]
 Stare / look at a player
 
-## unstareat / unstare [player]
+### unstareat / unstare [player]
 Disables stareat
 
-## rolewatch [group id] [role name]
+### rolewatch [group id] [role name]
 Notify if someone from a watched group joins the server
 
-## rolewatchstop / unrolewatch
+### rolewatchstop / unrolewatch
 Disable Rolewatch
 
-## rolewatchleave
+### rolewatchleave
 Toggle if you should leave the game if someone from a watched group joins the server
 
-## staffwatch
+### staffwatch
 Notify if a staff member of the game joins the server
 
-## unstaffwatch
+### unstaffwatch
 Disable Staffwatch
 
-## handlekill / hkill [player] [radius] (TOOL)
+### handlekill / hkill [player] [radius] (TOOL)
 Kills a player using tool damage (YOU NEED A TOOL)
 
-## fling
+### fling
 Flings anyone you touch
 
-## unfling
+### unfling
 Disables the fling command
 
-## flyfling [speed]
+### flyfling [speed]
 Basically the invisfling command but not invisible
 
-## unflyfling
+### unflyfling
 Disables the flyfling command
 
-## walkfling
+### walkfling
 Basically fling but no spinning
 
-## unwalkfling / nowalkfling
+### unwalkfling / nowalkfling
 Disables walkfling
 
-## invisfling
+### invisfling
 Enables invisible fling (the invis part is patched, try using the god command before using this)
 
-## antifling
+### antifling
 Disables player collisions to prevent you from being flung
 
-## unantifling
+### unantifling
 Disables antifling
 
-## loopoof
+### loopoof
 Loops everyones character sounds (everyone can hear)
 
-## unloopoof
+### unloopoof
 Stops the oof chaos
 
-## muteboombox [player]
+### muteboombox [player]
 Mutes someones boombox
 
-## unmuteboombox [player]
+### unmuteboombox [player]
 Unmutes someones boombox
 
-## hitbox [player] [size] [transparency]
+### hitbox [player] [size] [transparency]
 Expands the hitbox for players HumanoidRootPart (default is 1)
 
-## headsize [player] [size]
+### headsize [player] [size]
 Expands the head size for players Head (default is 1)
 
-## reset
+### reset
 Resets your character normally
 
-## respawn
+### respawn
 Respawns you
 
-## refresh / re
+### refresh / re
 Respawns and brings you back to the same position
 
-## god
+### god
 Makes your character difficult to kill in most games
 
-## permadeath
+### permadeath
 Makes you unable to respawn after death
 
-## invisible / invis
+### invisible / invis
 Makes you invisible to other players
 
-## visible / vis
+### visible / vis
 Makes you visible to other players
 
-## toolinvisible / toolinvis / tinvis
+### toolinvisible / toolinvis / tinvis
 Makes you invisible to other players and able to use tools
 
-## speed / ws / walkspeed [num]
+### speed / ws / walkspeed [num]
 Change your walkspeed (default is 16)
 
-## spoofspeed / spoofws [num]
+### spoofspeed / spoofws [num]
 Spoofs your WalkSpeed on the Client
 
-## loopspeed / loopws [num]
+### loopspeed / loopws [num]
 Loops your walkspeed
 
-## unloopspeed / unloopws
+### unloopspeed / unloopws
 Turns off loopspeed
 
-## hipheight / hheight [num]
+### hipheight / hheight [num]
 Adjusts hip height
 
-## jumppower / jpower / jp [num]
+### jumppower / jpower / jp [num]
 Change a players jump height (default is 50)
 
-## spoofjumppower / spoofjp [num]
+### spoofjumppower / spoofjp [num]
 Spoofs your JumpPower on the Client
 
-## loopjumppower / loopjp [num]
+### loopjumppower / loopjp [num]
 Loops your jump height
 
-## unloopjumppower / unloopjp
+### unloopjumppower / unloopjp
 Turns off loopjumppower
 
-## maxslopeangle / msa [num]
+### maxslopeangle / msa [num]
 Adjusts MaxSlopeAngle
 
-## gravity / grav [num] (CLIENT)
+### gravity / grav [num] (CLIENT)
 Change your gravity
 
-## sit
+### sit
 Makes your character sit
 
-## lay / laydown
+### lay / laydown
 Makes your character lay down
 
-## sitwalk
+### sitwalk
 Makes your character sit while still being able to walk
 
-## nosit
+### nosit
 Prevents your character from sitting
 
-## unnosit
+### unnosit
 Disables nosit
 
-## jump
+### jump
 Makes your character jump
 
-## infinitejump / infjump
+### infinitejump / infjump
 Allows you to jump before hitting the ground
 
-## uninfinitejump / uninfjump
+### uninfinitejump / uninfjump
 Disables infjump
 
-## flyjump
+### flyjump
 Allows you to hold space to fly up
 
-## unflyjump
+### unflyjump
 Disables flyjump
 
-## autojump / ajump
+### autojump / ajump
 Automatically jumps when you run into an object
 
-## unautojump / unajump
+### unautojump / unajump
 Disables autojump
 
-## edgejump / ejump
+### edgejump / ejump
 Automatically jumps when you get to the edge of an object
 
-## unedgejump / unejump
+### unedgejump / unejump
 Disables edgejump
 
-## platformstand / stun
+### platformstand / stun
 Enables PlatformStand
 
-## unplatformstand / unstun
+### unplatformstand / unstun
 Disables PlatformStand
 
-## norotate / noautorotate
+### norotate / noautorotate
 Disables AutoRotate
 
-## unnorotate / autorotate
+### unnorotate / autorotate
 Enables AutoRotate
 
-## enablestate [StateType]
+### enablestate [StateType]
 Enables a humanoid state type
 
-## disablestate [StateType]
+### disablestate [StateType]
 Disables a humanoid state type
 
-## team [team name] (CLIENT)
+### team [team name] (CLIENT)
 Changes your team. Sometimes fools localscripts.
 
-## nobillboardgui / nobgui / noname
+### nobillboardgui / nobgui / noname
 Removes billboard and surface GUIs from your players (i.e. name GUIs at cafes)
 
-## loopnobgui / loopnoname
+### loopnobgui / loopnoname
 Loop removes billboard and surface GUIs from your players (i.e. name GUIs at cafes)
 
-## unloopnobgui / unloopnoname
+### unloopnobgui / unloopnoname
 Disables loopnobgui
 
-## noarms
+### noarms
 Removes your arms
 
-## nolegs
+### nolegs
 Removes your legs
 
-## nolimbs
+### nolimbs
 Removes your limbs
 
-## naked (CLIENT)
+### naked (CLIENT)
 Removes your clothing
 
-## noface / removeface
+### noface / removeface
 Removes your face
 
-## blockhead
+### blockhead
 Turns your head into a block
 
-## blockhats
+### blockhats
 Turns your hats into blocks
 
-## blocktool
+### blocktool
 Turns the currently selected tool into a block
 
-## creeper
+### creeper
 Makes you look like a creeper
 
-## drophats
+### drophats
 Drops your hats
 
-## nohats / deletehats / rhats
+### nohats / deletehats / rhats
 Deletes your hats
 
-## hatspin / spinhats
+### hatspin / spinhats
 Spins your characters accessories
 
-## unhatspin / unspinhats
+### unhatspin / unspinhats
 Undoes spinhats
 
-## clearhats / cleanhats
+### clearhats / cleanhats
 Clears hats in the workspace
 
-## chardelete / cd [instance name]
+### chardelete / cd [instance name]
 Removes any part with a certain name from your character
 
-## chardeleteclass / cdc [class name]
+### chardeleteclass / cdc [class name]
 Removes any part with a certain classname from your character
 
-## deletevelocity / dv / removeforces
+### deletevelocity / dv / removeforces
 Removes any velocity / force instances in your character
 
-## weaken [num]
+### weaken [num]
 Makes your character less dense
 
-## unweaken
+### unweaken
 Sets your characters CustomPhysicalProperties to default
 
-## strengthen [num]
+### strengthen [num]
 Makes your character more dense (CustomPhysicalProperties)
 
-## unstrengthen
+### unstrengthen
 Sets your characters CustomPhysicalProperties to default
 
-## breakvelocity
+### breakvelocity
 Sets your characters velocity to 0
 
-## spin [speed]
+### spin [speed]
 Spins your character
 
-## unspin
+### unspin
 Disables spin
 
-## split
+### split
 Splits your character in half
 
-## nilchar
+### nilchar
 Sets your characters parent to nil
 
-## unnilchar / nonilchar
+### unnilchar / nonilchar
 Sets your characters parent to workspace
 
-## noroot / removeroot / rroot
+### noroot / removeroot / rroot
 Removes your characters HumanoidRootPart
 
-## replaceroot
+### replaceroot
 Replaces your characters HumanoidRootPart
 
-## clearcharappearance / clearchar / clrchar
+### clearcharappearance / clearchar / clrchar
 Removes all accessory, shirt, pants, charactermesh, and bodycolors
 
-## animation / anim [ID] [speed]
+### animation / anim [ID] [speed]
 Makes your character perform an animation (must be an animation on the marketplace or by roblox/stickmasterluke to replicate)
 
-## emote / em [ID] [speed]
+### emote / em [ID] [speed]
 Makes your character perform an emote (must be on the marketplace or by roblox/stickmasterluke to replicate)
 
-## dance
+### dance
 Makes you  d a n c e
 
-## undance
+### undance
 Stops dance animations
 
-## spasm
+### spasm
 Makes you  c r a z y
 
-## unspasm
+### unspasm
 Stops spasm
 
-## headthrow
+### headthrow
 Simply makes you throw your head
 
-## noanim
+### noanim
 Disables your animations
 
-## reanim
+### reanim
 Restores your animations
 
-## animspeed [num]
+### animspeed [num]
 Changes the speed of your current animation
 
-## copyanimation / copyanim / copyemote [player]
+### copyanimation / copyanim / copyemote [player]
 Copies someone elses animation
 
-## copyanimationid / copyanimid / copyemoteid [player]
+### copyanimationid / copyanimid / copyemoteid [player]
 Copies your animation id or someone elses to your clipboard
 
-## loopanimation / loopanim
+### loopanimation / loopanim
 Loops your current animation
 
-## stopanimations / stopanims
+### stopanimations / stopanims
 Stops running animations
 
-## refreshanimations / refreshanims
+### refreshanimations / refreshanims
 Refreshes animations
 
-## allowcustomanim / allowcustomanimations
+### allowcustomanim / allowcustomanimations
 Lets you use custom animation packs instead
 
-## unallowcustomanim / unallowcustomanimations
+### unallowcustomanim / unallowcustomanimations
 Doesn\'t let you use custom animation packs instead
 
-## autoclick [click delay] [release delay]
+### autoclick [click delay] [release delay]
 Automatically clicks your mouse with a set delay
 
-## unautoclick / noautoclick
+### unautoclick / noautoclick
 Turns off autoclick
 
-## autokeypress [key] [down delay] [up delay]
+### autokeypress [key] [down delay] [up delay]
 Automatically presses a key with a set delay
 
-## unautokeypress
+### unautokeypress
 Stops autokeypress
 
-## hovername
+### hovername
 Shows a players username when your mouse is hovered over them
 
-## unhovername / nohovername
+### unhovername / nohovername
 Turns off hovername
 
-## mousesensitivity / ms [0-10]
+### mousesensitivity / ms [0-10]
 Sets your mouse sensitivity (affects first person and right click drag) (default is 1)
 
-## clickdelete
+### clickdelete
 Go to Settings > Keybinds > Add for click delete
 
-## clickteleport
+### clickteleport
 Go to Settings > Keybinds > Add for click teleport
 
-## mouseteleport / mousetp
+### mouseteleport / mousetp
 Teleports your character to your mouse. This is recommended as a keybind
 
-## tools
+### tools
 Copies tools from ReplicatedStorage and Lighting
 
-## notools / removetools / deletetools
+### notools / removetools / deletetools
 Removes tools from character and backpack
 
-## deleteselectedtool / dst
+### deleteselectedtool / dst
 Removes any currently selected tools
 
-## grabtools
+### grabtools
 Automatically get tools that are dropped
 
-## ungrabtools / nograbtools
+### ungrabtools / nograbtools
 Disables grabtools
 
-## copytools [player] (CLIENT)
+### copytools [player] (CLIENT)
 Copies a players tools
 
-## dupetools / clonetools [num]
+### dupetools / clonetools [num]
 Duplicates your inventory tools a set amount of times
 
-## droptools
+### droptools
 Drops your tools
 
-## droppabletools
+### droppabletools
 Makes your tools droppable
 
-## equiptools
+### equiptools
 Equips every tool in your inventory at once
 
-## unequiptools
+### unequiptools
 Unequips every tool you are currently holding at once
 
-## removespecifictool [name]
+### removespecifictool [name]
 Automatically remove a specific tool from your inventory
 
-## unremovespecifictool [name]
+### unremovespecifictool [name]
 Stops removing a specific tool from your inventory
 
-## clearremovespecifictool
+### clearremovespecifictool
 Stop removing all specific tools from your inventory
 
-## reach [num]
+### reach [num]
 Increases the hitbox of your held tool
 
-## boxreach [num]
+### boxreach [num]
 Increases the hitbox of your held tool in a box shape
 
-## unreach / noreach
+### unreach / noreach
 Turns off reach
 
-## grippos [X Y Z]
+### grippos [X Y Z]
 Changes your current tools grip position
 
-## usetools [amount] [delay]
+### usetools [amount] [delay]
 Activates all tools in your backpack at the same time
 
-## addalias [cmd] [alias]
+### addalias [cmd] [alias]
 Adds an alias to a command
 
-## removealias [alias]
+### removealias [alias]
 Removes a custom alias
 
-## clraliases
+### clraliases
 Removes all custom aliases
 
-## addplugin / plugin [name]
+### addplugin / plugin [name]
 Add a plugin via command
 
-## removeplugin / deleteplugin [name]
+### removeplugin / deleteplugin [name]
 Remove a plugin via command
 
-## reloadplugin [name]
+### reloadplugin [name]
 Reloads a plugin
 
-## addallplugins / loadallplugins
+### addallplugins / loadallplugins
 Adds all available plugins from the workspace folder
 
-## breakloops / break (cmd loops)
+### breakloops / break (cmd loops)
 Stops any cmd loops (;100^1^cmd)
 
-## removecmd / deletecmd
+### removecmd / deletecmd
 Removes a command until the admin is reloaded
 
-## tpwalk / teleportwalk [num]
+### tpwalk / teleportwalk [num]
 Teleports you to your move direction
 
-## untpwalk / unteleportwalk
+### untpwalk / unteleportwalk
 Undoes tpwalk / teleportwalk
 
-## notifyping / ping
+### notifyping / ping
 Notify yourself your ping
 
-## trip
+### trip
 Makes your character fall over
 
-## norender
+### norender
 Disable 3d Rendering to decrease the amount of CPU the client uses
 
-## render
+### render
 Enable 3d Rendering
 
-## use2022materials / 2022materials
+### use2022materials / 2022materials
 Enables 2022 material textures
 
-## unuse2022materials / un2022materials
+### unuse2022materials / un2022materials
 Disables 2022 material textures
 
-## promptr6
+### promptr6
 Prompts the game to switch your rig type to R6
 
-## promptr15
+### promptr15
 Prompts the game to switch your rig type to R15
 
-## wallwalk / walkonwalls
+### wallwalk / walkonwalls
 Walk on walls
 
-## removeads / adblock
+### removeads / adblock
 Automatically removes ad billboards
 
-## scare / spook [player]
+### scare / spook [player]
 Teleports in front of a player for half a second
 
-## alignmentkeys
+### alignmentkeys
 Enables the left and right alignment keys (comma and period)
 
-## unalignmentkeys / noalignmentkeys
+### unalignmentkeys / noalignmentkeys
 Disables the alignment keys
 
-## ctrllock
+### ctrllock
 Binds Shiftlock to LeftControl
 
-## unctrllock
+### unctrllock
 Re-binds Shiftlock to LeftShift
 
-## listento [player]
+### listento [player]
 Listens to the area around a player. Can also eavesdrop with vc
 
-## unlistento
+### unlistento
 Disables listento
 
-## jerk
+### jerk
 Makes you jork it
 
-## unsuspendchat
+### unsuspendchat
 Unsuspends you from text chat
 
-## unsuspendvc
+### unsuspendvc
 Unsuspends you from voice chat
 
-## muteallvcs
+### muteallvcs
 Mutes voice chat for all players
 
-## unmuteallvcs
+### unmuteallvcs
 Unmutes voice chat for all players
 
-## mutevc [player]
+### mutevc [player]
 Mutes the voice chat of a player
 
-## unmutevc [player]
+### unmutevc [player]
 Unmutes the voice chat of a player
 
