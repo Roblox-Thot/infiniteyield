@@ -11,7 +11,7 @@ with open('version', 'r') as file:
     version = data['Version']
 
 out = open("commands.md", 'w')
-out.write(f'## Infinite Yield v{version}\n\n')
+out.write(f'# Infinite Yield v{version}\n\n')
 out.write(f'## Commands\n\n')
 for i in range(len(lines)):
     if 'CMDs[#CMDs + 1] = {NAME = ' in lines[i]:
@@ -30,6 +30,7 @@ for i in range(len(lines)):
         out.write(f'### {name}\n{desc}\n\n')
 
 out.close()
+
 
 
 
