@@ -1,4 +1,4 @@
-## Infinite Yield v6.3.4
+# Infinite Yield v6.3.4
 
 ## Commands
 
