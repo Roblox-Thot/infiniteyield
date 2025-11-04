@@ -13,6 +13,8 @@ with open('version', 'r') as file:
 out = open("commands.md", 'w')
 out.write(f'# Infinite Yield v{version}\n\n')
 out.write(f'## Commands\n\n')
+
+commands = {}
 for i in range(len(lines)):
     if 'CMDs[#CMDs + 1] = {NAME = ' in lines[i]:
         command_line = lines[i]
@@ -28,10 +30,7 @@ for i in range(len(lines)):
         print(f'Command Name: {name}, Description: {desc}')
 
         out.write(f'### {name}\n{desc}\n\n')
+        commands[name] = desc
 
 out.close()
-
-
-
-
-
+with open('commands.json', 'w') as f: json.dump(commands, f)
