@@ -30,9 +30,11 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git pull origin master
         git add 'commands.md'
+        git add 'commands.json'
         git commit -m 'Commands update'
         git push origin master
       env:
 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
