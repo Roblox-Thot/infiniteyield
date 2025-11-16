@@ -1235,3 +1235,6 @@ Mutes the voice chat of a player
 ### unmutevc [player]
 Unmutes the voice chat of a player
 
+### phonebook / call
+Prompts the Roblox phonebook UI to let you call your friends
+
