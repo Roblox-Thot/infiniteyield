@@ -1,6 +1,7 @@
 import json
 with open('source', 'r') as file: lines = file.readlines()
 
+# Clean up the cmd list
 replacements = {
     "CMDs[#CMDs + 1] = {NAME = '": '',
     "'}": '',
@@ -32,5 +33,5 @@ for i in range(len(lines)):
         out.write(f'### {name}\n{desc}\n\n')
         commands[name] = desc
 
-out.close()
 with open('commands.json', 'w') as f: json.dump(commands, f, indent=4)
+out.close()
